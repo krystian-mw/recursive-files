@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 module.exports = function get_recurscive_files_array (dir) {
 
     let files = [];
